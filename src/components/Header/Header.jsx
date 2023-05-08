@@ -1,6 +1,17 @@
-import React from "react"
+import React from 'react';
+import { Logo } from './../Logo/Logo.jsx';
+import { Search } from './../Search/Search.jsx';
+import { HeaderIcons } from '../Header_Icons/HeaderIcons.jsx';
+import s from './header.module.css';
 
-
-export const  Header = () => {
-    return <header className="header"> this is Header</header>
-}
+export const Header = (props) => {
+  return (
+    <div className={s.header}>
+      <div className={s.header__wrapper}>
+        <Logo className='logo' />
+        <Search setSearch={() => {}} />
+        <HeaderIcons />
+      </div>
+    </div>
+  );
+};
