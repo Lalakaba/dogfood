@@ -1,0 +1,17 @@
+ul.footer__list {
+  list-style-type: none;
+}
+
+.footer__list_item {
+  text-decoration: none;
+  text-align: left;
+}
+
+.footer__list_link {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #1a1a1a;
+}

@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  background-color: #ffe44d;
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 80px;
+}
